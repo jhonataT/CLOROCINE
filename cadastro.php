@@ -50,7 +50,7 @@
                         <div class="input-field col s12">
                             <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
                             <label for="textarea2">Textarea</label>
-                        </div>
+                        </div>  
                     </div>
 
                 </div>
