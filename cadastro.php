@@ -5,18 +5,11 @@
         <div class="nav-wrapper">
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="Galeria.php">Galeria</a></li>
-                <li><a href="Cadastro.php">Cadastrar</a></li>
+                <li class="active"><a href="Cadastro.php">Cadastrar</a></li>
             </ul>
         </div>
         <div class="nav-header center">
             <h1 class="">CLOROCINE</h1>
-        </div>
-        <div class="nav-content">
-            <ul class="tabs tabs-transparent purple darken-1">
-                <li class="tab"><a class="active" href="#test1">Todos</a></li>
-                <li class="tab"><a href="#test2">Assistidos</a></li>
-                <li class="tab"><a href="#test3">Favoritos</a></li>
-            </ul>
         </div>
     </nav>
 

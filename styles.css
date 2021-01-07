@@ -1,3 +1,21 @@
 body {
     background-color: #e3e5e5;
 }
+
+.nav-header.center h1 {
+    text-shadow: 4px 3px 11px black;
+
+}
+
+.nav-extended {
+    background-image: url("imgs/capa.jpg");
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+nav ul li.active,
+.tab a.active {
+    border-bottom: solid 2px #fff;
+    background-color: transparent;
+}
+
