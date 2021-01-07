@@ -39,6 +39,7 @@
                 <div class="card-content">
                     <span class="card-title">Cadastrar filme</span>
 
+                    <!-- Title input -->
                     <div class="row">
                         <div class="input-field col s12">
                             <input id="title" type="text" class="validate">
@@ -46,12 +47,37 @@
                         </div>
                     </div>
 
+                    <!-- synopsis input -->
                     <div class="row">
-                        <div class="input-field col s12">
-                            <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
-                            <label for="textarea2">Textarea</label>
-                        </div>  
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea id="synopsis" class="materialize-textarea" data-length="120"></textarea>
+                                    <label for="synopsis">Sinopse</label>
+                                </div>
+                            </div>
+                        </form>
                     </div>
+
+                    <!-- Note input -->
+                    <div class="row">
+                        <div class="input-field col s4">
+                            <input id="note" type="number" step="0.1" min="0" max="10" class="validate">
+                            <label for="note">Nota</label>
+                        </div>
+                    </div>
+
+                    <!-- File input  -->
+                    <div class="file-field input-field">
+                        <div class="btn purple lighten-2 ">
+                            <span>Capa</span>
+                            <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text">
+                        </div>
+                    </div>
+
 
                 </div>
                 <div class="card-action">
@@ -63,5 +89,6 @@
     </div>
 
 </body>
+
 
 </html>
